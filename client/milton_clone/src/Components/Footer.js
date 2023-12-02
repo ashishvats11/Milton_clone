@@ -4,65 +4,56 @@ export default function Footer(){
             <footer >
                 <div class="flex flex-wrap items-center space-x-9"> 
                     
-                <div className="mx-10 ">
-                        <h3 className="text-black text-lg font-serif">Milton</h3>
-                        <ul>
-                        <li class="text-white">A short text explaining why my startup is so cool</li>
-                        <li class="text-white">© My super start-up</li>
-                       
-                        </ul>
-                       
-                    </div>
-                    <div className="m-10">
-                        <h3 className="text-black text-lg font-serif">Products</h3>
-                        <ul>
-                        <li class="text-white">Home</li>
-                        <li class="text-white">Blog</li>
-                        <li class="text-white">About</li>
-                        <li class="text-white">Srvices</li>
-                        </ul>
-                       
-                    </div>
-                    <div  className="m-10">
-                        <h4 className="text-black text-lg font-serif">Testimonials</h4>
-                        <ul className="text-gray-400">
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                        </ul>
-                    </div>
-                    <div  className="m-10">
-                        <h4 className="text-black text-lg font-serif">Resources</h4>
-                        <ul className="text-gray-700">
-                            <li>Insta</li>
-                            <li>Insta</li>
-                            <li>Insta</li>
-                            <li>Insta</li>
-                            <li>Insta</li>
-                        </ul>
-                    </div>
-                    <div  className="m-10">
-                        <h4 className="text-black text-lg font-serif">Others</h4>
-                        <ul className="text-gray-400">
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                        </ul>
-                    </div>
-                    <div  className="m-10">
-                        <h4 className="text-black text-lg font-serif">From the blog</h4>
-                        <ul className="text-gray-400">
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                            <li>Email: vatsaashish11@gmail.com</li>
-                        </ul>
-                    </div>
+                        <div className="m-10 ">
+                            <h3 className="text-black text-lg font-serif">Milton</h3>
+                            <ul>
+                            <li class="text-gray-400">A short text explaining why my startup is so cool</li>
+                            <li class="text-gray-400">© My super start-up</li>
+                        
+                            </ul>
+                        
+                        </div>
+                        <div className="m-10">
+                            <h3 className="text-black text-lg font-serif">Products</h3>
+                            <ul>
+                            <li class="text-gray-400">Features</li>
+                            <li class="text-gray-400">Testimonials</li>
+                            <li class="text-gray-400">Pricing</li>
+                            <li class="text-gray-400">FAQs</li>
+                            </ul>
+                        
+                        </div>
+                        <div  className="m-10">
+                            <h4 className="text-black text-lg font-serif">Resources</h4>
+                            <ul className="text-gray-400">
+                                <li>Change log</li>
+                                <li>Help center</li>
+                                <li>Blog</li>
+                                <li>Contact</li>
+                                
+                            </ul>
+                        </div>
+                
+                        <div  className="m-10">
+                            <h4 className="text-black text-lg font-serif">Others</h4>
+                            <ul className="text-gray-400">
+                                <li>Privacy</li>
+                                <li>Terms</li>
+                                <li>Affiliation</li>
+                                <li>Press</li>
+                                
+                            </ul>
+                        </div>
+                        <div  className="m-10">
+                            <h4 className="text-black text-lg font-serif">From the blog</h4>
+                            <ul className="text-gray-400">
+                                <li>Mastering Your Schedule: Top Time Management Techniques for Balancing Work and Life</li>
+                                <li>Organizing Your Calendar for Enhanced Productivity and Focus</li>
+                                <li>The Power of Prioritization: Effective Strategies for Managing Your Time and Tasks</li>
+                                <li>Maximizing Your Minutes: Essential Tips for Streamlining Your Daily Routine and Calendar</li>
+
+                            </ul>
+                        </div>
                     
                     
                 </div>
