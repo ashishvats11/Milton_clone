@@ -40,8 +40,8 @@ function Features() {
         {/*Feature 2*/}
 
         <div className='flex flex-row gap-7 px-14 '>
-            <div className='scale-150'>
-                <img src={f2}></img>
+            <div className=''>
+                <img className=''src={f2}></img>
             </div>
             <div className='felx flex-col '>
                 <div className='flex flex-col gap-1'>
@@ -95,15 +95,15 @@ function Features() {
             <div className='felx flex-col '>
                 <div className='flex flex-col gap-1'>
                     <div className='flex justify-start'>
-                        <p className='bg-orange-300 inline rounded-2xl px-3 py-1'>Seamless Scheduling</p>
+                        <p className='bg-orange-300 inline rounded-2xl px-3 py-1'>Smart Reminders & Task</p>
                     </div>
                     <div>
-                        <p className='text-4xl font-semibold text-start'>Focus on what matters most for you</p>
+                        <p className='text-4xl font-semibold text-start'>Never miss an important deadline or event again</p>
                     </div>
 
                 </div>
                 <div>
-                    <p className='text-start'>Effortlessly plan your day with our intuitive drag-and-drop interface. Sync with multiple calendar platforms, import events from emails, and add participants with just a few clicks.</p>
+                    <p className='text-start'>Never miss an important deadline again with our AI-driven  notifications. Our app intelligently analyzes your schedule to prioritize what's most important, keeping you on track and ensuring your day is productive and stress-free.</p>
                 </div>
             </div>
            
