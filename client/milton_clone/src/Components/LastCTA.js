@@ -1,7 +1,7 @@
 import bit1 from '../assets/bitmoji/bit1.webp'
 export default function LastCTA(){
     return(
-        <div className="bg-orange-50 pb-28 px-20">
+        <div className="bg-orange-50 pb-28 px-20 ">
             <div className="pt-40 pb-10">
                 <p className="bg-gray-200 inline font-medium rounded-2xl px-3 py-1">Last call Baby!🚀</p>
                 <p className="text-5xl font-extrabold ">Ready to start?</p>
