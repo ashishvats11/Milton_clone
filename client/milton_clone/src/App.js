@@ -7,12 +7,14 @@ import LastCTA from './Components/LastCTA';
 import FAQs from './Components/FAQs';
 import PricingTable from './Components/PricingTale';
 import Features from './Components/Features';
+import Grid from './Components/Grid';
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Hero/>
       <Features/>
+      <Grid/>
       {/* <PricingTable/> */}
       <FAQs/>
       <LastCTA/>
