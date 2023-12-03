@@ -8,6 +8,8 @@ import FAQs from './Components/FAQs';
 import PricingTable from './Components/PricingTale';
 import Features from './Components/Features';
 import Grid from './Components/Grid';
+import Testimonials from './Components/Testimonials';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <Hero/>
       <Features/>
       <Grid/>
+      <Testimonials/>
       {/* <PricingTable/> */}
       <FAQs/>
       <LastCTA/>

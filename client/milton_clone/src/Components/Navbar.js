@@ -1,4 +1,6 @@
+
 export default function Navbar(){
+    
     return(
         <div class="flex justify-around bg-orange-50 h-10 border-b-2 border-slate-200 px-14 py-10 fixed w-full">
             <div className=" flex items-center "> 
@@ -6,7 +8,7 @@ export default function Navbar(){
             </div>
             <div class="flex justify-center" >
                 <ul class="flex items-center mx-9 ">
-                    <li class="text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4">Features </li>
+                    <li class="text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4">Features</li>
                     <li class="text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4"> Testimonial</li>
                     <li class="text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4">Pricing</li>
                     <li class="text-slate-500 text-lg font-semibold cursor-pointer hover:underline hover:decoration-black  px-4">FAQs</li>
