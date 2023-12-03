@@ -1,10 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import React, { useRef, useState } from 'react';
-// import bit1 from '../assets/bitmoji/bit1.webp'
-// import bit2 from '../assets/bitmoji/bit2.webp'
-// import bit3 from '../assets/bitmoji/bit3.webp'
-// import bit4 from '../assets/bitmoji/bit4.webp'
-// import bit5 from '../assets/bitmoji/bit5.webp'
+
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 // import 'swiper/css/pagination';
@@ -15,7 +11,7 @@ export default function Testimonials(){
         <div className="bg-orange-50 pt-40 px-20 flex flex-col gap-16 ">
             <div className='flex flex-col gap-3'>
                 <div>
-                    <p className="bg-gray-200 inline px-4 py-1 rounded-2xl">They already love our products😍</p>
+                    <p className="bg-gray-200 inline px-4 py-1 rounded-2xl font-medium  ">They already love our products😍</p>
                 </div>
                 <div>
                     <p className='text-6xl font-bold'>See what our users say about us</p>
@@ -41,7 +37,7 @@ export default function Testimonials(){
     //    pagination={true}
        modules={[EffectCoverflow, Pagination, Autoplay]}
        className="mySwiper"
-       autoplay ={{delay:2300,
+       autoplay ={{delay:1800,
                     disableOnInteraction: false,
                     
                     }}

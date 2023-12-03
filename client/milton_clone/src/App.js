@@ -4,12 +4,13 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Footer from './Components/Footer';
 import LastCTA from './Components/LastCTA';
-import FAQs from './Components/FAQs';
-import PricingTable from './Components/PricingTale';
+
 import Features from './Components/Features';
 import Grid from './Components/Grid';
 import Testimonials from './Components/Testimonials';
-
+import Accordion from './Components/Accordions/Accordion';
+import PricingTable from './Components/PricingTale';
+// import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -18,8 +19,8 @@ function App() {
       <Features/>
       <Grid/>
       <Testimonials/>
-      {/* <PricingTable/> */}
-      <FAQs/>
+      <PricingTable/>
+      <Accordion/>
       <LastCTA/>
       <Footer/>
     </div>
