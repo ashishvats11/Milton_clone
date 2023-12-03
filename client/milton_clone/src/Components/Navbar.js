@@ -2,7 +2,7 @@
 export default function Navbar(){
     
     return(
-        <div class="flex justify-around bg-orange-50 h-10 border-b-2 border-slate-200 px-14 py-10 fixed w-full">
+        <div class="flex justify-around bg-orange-50 h-10 border-b-2 border-slate-200 px-14 py-10 fixed w-full z-10">
             <div className=" flex items-center "> 
                 <ul className="text-black text-xl font-sans font-semibold ">Milton</ul>
             </div>
